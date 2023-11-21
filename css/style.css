@@ -1,0 +1,267 @@
+body {
+    background-color: cornflowerblue;
+}
+#skip-to-content{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: relative;
+    top: -40px;
+}
+#skip-to-content:focus {
+    color: #153462;
+    text-transform: capitalize;
+    position: static;
+    width: auto;
+    height: auto;
+    border: solid black 2px;
+}
+
+a[href= '#main'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+nav {
+    border: 2px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #301282;
+}
+.current {
+    border: solid lightblue 3px;
+    border-radius: 5px;
+    padding: 2px;
+}
+header {
+    background-color: #301282;
+    animation: 
+    color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 44px;
+}
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  animation-name: slideIn;
+  animation-duration: 1s;
+}
+.large-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.large-container .container {
+    margin-bottom: 40px;
+    border: solid #153462 5px;
+    border-radius: 30px;
+    padding: 15px;
+    grid-column: 1/-1;
+}
+h1 {
+    color: lightblue;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: #301282;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    color: #301282;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    padding: 25px;
+}
+p {
+    text-align: center;
+    color: #301282;
+}
+div .likes{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #301282;
+}
+figcaption{
+    text-align: center;
+    color: #301282;
+}
+.steps{
+    text-align: center;
+    color: #301282;
+}
+.ingredients{
+    text-align: center;
+    color: #301282;
+}
+img {
+    max-width: 100%;
+    padding: 25px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.gif {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gif {
+      display: none;
+    }
+  }
+  @keyframes slideIn {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+  }
+.head {
+    transition: transform 1s ease;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .header .head {
+      transition: none;
+    }
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+  .navbar {
+    font-size: x-large;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+  }
+  .description {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.list{
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 20px;
+}
+.likes {
+    display: inline-block;
+}
+
+.food-pics{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-pics-pet{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    gap: 20px;
+}
+.container .description {
+    font-size: 16px;
+    align-self: center;
+}
+
+.container .list {
+    margin-left: 20px;
+}
+.container .food-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .food-pics-pet {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.description {
+    text-align: left;
+}
+.background-container {
+    background-image: url('/Users/saraseekiran/Desktop/Common Project/images/blueglitter.jpg');
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+}
+h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+ #hey {
+    height: 100px;
+    width: 100px;
+}
