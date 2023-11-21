@@ -251,7 +251,7 @@ nav li {
     text-align: left;
 }
 .background-container {
-    background-image: url('images/blueglitter.jpg');
+    background-image: url('blueglitter.jpg');
     background-position: center; 
     display: flex;
     align-items: center;
