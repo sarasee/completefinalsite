@@ -251,7 +251,7 @@ nav li {
     text-align: left;
 }
 .background-container {
-    background-image: url('https://media.istockphoto.com/id/1385064274/vector/light-blue-glitter-watercolor-style-illustration.jpg?s=612x612&w=0&k=20&c=7fZea2B7srecL0MsPUI-a2M_bNk3AjfVBLTdTYsI2rQ=/blueglitter.jpg');
+    background-image: url('../blueglitter.jpg');
     background-position: center; 
     display: flex;
     align-items: center;
